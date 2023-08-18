@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  width: 90%;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 45%;
+  }
+}
+.event-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: transparent;
+}
+.event-image {
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid transparent;
+}
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 15px;
+}
+.event-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.event-location {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: -15px;
+}
